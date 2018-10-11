@@ -2,9 +2,8 @@
 	position: fixed;
 	left:0;
 	width:500px;
-	height:1000px;
-	margin-top:-1.5em;
-	background-color:#717171;
+	height:1100px;
+	margin-top:-2.6em;
 }
 
 #main{
@@ -30,4 +29,16 @@
 .footer{
 	margin-left:10em;
 	margin-top:50em;
+}
+
+.heading{
+	font-size:50px;
+}
+
+.maodian{
+	margin-left:110em;
+	margin-top:55em;
+	width:70px;
+	height:30px;
+	background-color:#717171;
 }
