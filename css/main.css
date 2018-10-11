@@ -1,0 +1,33 @@
+#left{
+	position: fixed;
+	left:0;
+	width:500px;
+	height:1000px;
+	margin-top:-1.5em;
+	background-color:#717171;
+}
+
+#main{
+	margin-left:37em;
+	margin-top:2em;
+}
+
+
+#gengxin{
+	margin-top:5em;
+}
+
+.message{
+	margin-left:20em;
+	margin-top:-9em;
+	width:600px;
+}
+
+.section{
+	margin-left:20em;
+}
+
+.footer{
+	margin-left:10em;
+	margin-top:50em;
+}
