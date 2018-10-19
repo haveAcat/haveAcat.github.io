@@ -3,27 +3,50 @@
 	left:0;
 	width:500px;
 	height:1100px;
-	margin-top:-2.6em;
+	margin-top:-0.6em;
 }
 
 #main{
-	margin-left:37em;
+	width:1600px;
+	margin-left:30.7em;
 	margin-top:2em;
+	background-color:#D2E5ED;
 }
 
+#jianjie{
+	width:1500px;
+	height:350px;
+	margin-top:-2em;
+	padding-left:3em;
+	background-color:#5f909c;
+}
 
 #gengxin{
 	margin-top:5em;
+	margin-left:2em;
+}
+
+#fenlei{
+	margin-left:2em;
+}
+
+#liulan{
+	margin-left:2em;
 }
 
 .message{
 	margin-left:20em;
-	margin-top:-9em;
-	width:600px;
+	margin-top:-10em;
+	width:650px;
+	line-height:40px;
+	color:#273336;
+	font-size:20px;
+	font-weight:700;
 }
 
 .section{
 	margin-left:20em;
+	list-style:none;
 }
 
 .footer{
@@ -35,10 +58,22 @@
 	font-size:50px;
 }
 
+.avatar{
+	margin-left:5em;
+	margin-top:2em;
+}
+
 .maodian{
 	margin-left:110em;
-	margin-top:55em;
-	width:70px;
-	height:30px;
-	background-color:#717171;
+	margin-top:58em;
+	width:100px;
+	height:27px;
+	padding:5px;
+	border-radius:30px;
+	background-color:#F3573B;
+	text-decoration:none;
+	text-align:center;
+	font-weight:700;
+	color:#273336;
 }
+
