@@ -5,6 +5,7 @@ a{
 	font-size:30px;
 }
 
+
 #left{
 	position: fixed;
 	left:0;
@@ -73,7 +74,7 @@ a{
 
 .maodian{
 	margin-left:110em;
-	margin-top:58em;
+	margin-top:56em;
 	width:100px;
 	height:27px;
 	padding:5px;
@@ -81,9 +82,10 @@ a{
 	background-color:#F3573B;
 	text-align:center;
 	font-weight:700;
+  font-size:16px;
 	color:#273336;
 }
 
 .fl{
-
+  margin-left:100px;
 }
