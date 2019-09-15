@@ -2,7 +2,7 @@
 	background-color:#7e7e7e;
 }
 
-.main .carousel slide carousel-fade{
-	width:70%;
-	text-align:center;
+.main .pic-carousel {
+	width: 70%;
+	text-align: center;
 }
