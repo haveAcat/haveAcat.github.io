@@ -1,26 +1,42 @@
 ﻿<!DOCTYPE html>
-
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, inital-scale=1.0, shrink-to-fit=no">
     <!--载入Bootstrap的CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <title>Roger Lin</title>
 </head>
-<body style="background-color:#2e2e2e">
+<body>
     <div class="top-bar">
-
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, Visitor!</h1>
+            <p class="lead">My name's Roger Lin. This is a personal website, to show my daily photography. </p>
+            <p class="lead">Hope you can enjoy! </p>
+            <hr class="my-4">
+            <p class="lead">If you want to get some more information about me, please use these links.</p>
+            <div class="links">
+                <i class="fa fa-github fa-3x"></i>haveAcat
+                <i class="fa fa-instagram fa-3x"></i>chenhao6619
+                <i class="fa fa-envelope-square fa-3x"></i>Linchenaho971125@163.com
+            </div>          
+        </div>
     </div>
 
     <div class="main">
         <div class="pic-carousel">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/DSC02291.jpg" class="d-block w-100" alt="...">
@@ -42,6 +58,62 @@
                 </a>
             </div>
         </div>
+
+        <div class="classification">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Street Snap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Building</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Natural</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Car</a>
+                </li>
+            </ul>
+            <hr class="my-4">
+            <p id="latest">The latest</p>
+        </div>
+
+        <div class="display-bar">
+            <img src="images/DSC01706.jpg" alt="" />
+            <img src="images/DSC01699.jpg" alt="" />
+            <img src="images/DSC01120.jpg" alt="" />
+            <img src="images/DSC01464.jpg" alt="" />
+        </div>
+
+        <div class="footer">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Want to talk to me?</h1>
+                    <p class="lead">You can send me an Email or talk to me on the Instagram.</p>
+                    <p class="lead">And, what do you think about my website and photos? Please feedback.</p>
+                </div>
+                <div class="feedback">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="So I can keep in touch with you">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Name/Nickname</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="If you want to tell">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">What do you want to say</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </body>
