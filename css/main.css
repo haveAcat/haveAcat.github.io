@@ -1,8 +1,8 @@
 .body {
-	background-color:#7e7e7e;
+	background:#171717;
 }
 
 .main .pic-carousel {
-	width: 70%;
-	text-align: center;
+	width: 60%;
+	margin:0px,auto;
 }
