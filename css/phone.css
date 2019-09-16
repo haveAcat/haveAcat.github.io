@@ -8,9 +8,10 @@ body {
 }
 
 .maodian {
-    color:#e3e3e3;
-    margin-left:96%;
+    color:#f95959;
+    margin-left:91%;
     margin-top:2%;
+    z-index:10;
 }
 
 .maodian :hover {
@@ -18,9 +19,10 @@ body {
 }
 
 .fanhui {
-    color: #e3e3e3;
-    margin-left: 96%;
-    margin-top: 5%;
+    color: #f95959;
+    margin-left: 91%;
+    margin-top: 12%;
+    z-index: 10;
 }
 
 .fanhui :hover {
